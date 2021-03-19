@@ -13,8 +13,6 @@ const ordersData = require('./data.json');
 
 const ordersmorethan4 = ordersData.filter((eachorder)=>{
     return eachorder.total_items > 4
-    
-
 })
    
 
