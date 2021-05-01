@@ -1,7 +1,7 @@
 //closure
-function createIncrementor(startValue) {//100
+function createIncrementor(a) {//100
     return function (step) {
-        startValue += step;
+        a += step;
         return startValue;
     };
 }
